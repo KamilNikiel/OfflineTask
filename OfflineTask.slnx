@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/NotificationService/">
+    <Project Path="NotificationService/NotificationService.Api/NotificationService.Api.csproj" />
+    <Project Path="NotificationService/NotificationService.Application/NotificationService.Application.csproj" />
+    <Project Path="NotificationService/NotificationService.Domain/NotificationService.Domain.csproj" />
+    <Project Path="NotificationService/NotificationService.Infrastructure/NotificationService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/UnitTests/">
+    <Project Path="UnitTests/NotificationService.UnitTests/NotificationService.UnitTests.csproj" Id="68695600-69b7-4909-8aa9-984b163670a9" />
+  </Folder>
+</Solution>
