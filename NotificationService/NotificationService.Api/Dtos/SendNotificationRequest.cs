@@ -1,6 +1,6 @@
 namespace NotificationService.Api.Dtos
 {
-    public partial class SendNotificationRequest
+    public class SendNotificationRequest
     {
         public string UserId { get; private init; }
 

@@ -6,7 +6,7 @@ using System.Threading.Channels;
 namespace NotificationService.Infrastructure.Messaging
 {
     // InMemory is demo implementation. Production would use persistent queue (Kafka, Redis)
-    public class InMemoryDelayedQueue : IDelayedNotificationQueue
+    internal class InMemoryDelayedQueue : IDelayedNotificationQueue
     {
         private readonly Channel<DelayedMessage> _channel = Channel.CreateUnbounded<DelayedMessage>();
 

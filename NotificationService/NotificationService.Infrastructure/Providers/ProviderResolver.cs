@@ -5,7 +5,7 @@ using NotificationService.Domain.Enums;
 
 namespace NotificationService.Infrastructure.Providers
 {
-    public class ProviderResolver : IProviderResolver
+    internal class ProviderResolver : IProviderResolver
     {
         private readonly IEnumerable<INotificationProvider> _providers;
 

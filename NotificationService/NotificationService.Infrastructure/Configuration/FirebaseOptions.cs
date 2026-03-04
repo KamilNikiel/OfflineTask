@@ -1,6 +1,6 @@
 ﻿namespace NotificationService.Infrastructure.Configuration
 {
-    public class FirebaseOptions
+    internal class FirebaseOptions
     {
         public const string SectionName = "Firebase";
 

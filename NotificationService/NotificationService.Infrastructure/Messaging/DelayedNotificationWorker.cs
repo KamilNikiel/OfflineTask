@@ -6,7 +6,7 @@ using NotificationService.Domain.ValueObjects;
 
 namespace NotificationService.Infrastructure.Messaging
 {
-    public class DelayedNotificationWorker : BackgroundService
+    internal class DelayedNotificationWorker : BackgroundService
     {
         private readonly IDelayedNotificationQueue _queue;
 

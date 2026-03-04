@@ -1,6 +1,6 @@
 ﻿namespace NotificationService.Infrastructure.Configuration
 {
-    public class TwilioOptions
+    internal class TwilioOptions
     {
         public const string SectionName = "Twilio";
 

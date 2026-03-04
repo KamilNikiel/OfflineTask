@@ -12,7 +12,7 @@ using System.Net;
 
 namespace NotificationService.Infrastructure.Providers.Sms
 {
-    public class AwsSnsSmsProvider : INotificationProvider
+    internal class AwsSnsSmsProvider : INotificationProvider
     {
         private readonly IAmazonSimpleNotificationService _snsClient;
         private readonly AwsSnsOptions _options;

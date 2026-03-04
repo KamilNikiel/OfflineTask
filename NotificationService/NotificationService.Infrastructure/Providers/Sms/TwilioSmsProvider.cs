@@ -13,7 +13,7 @@ using Twilio.Types;
 
 namespace NotificationService.Infrastructure.Providers.Sms
 {
-    public class TwilioSmsProvider : INotificationProvider
+    internal class TwilioSmsProvider : INotificationProvider
     {
         private readonly ITwilioRestClient _twilioClient;
         private readonly TwilioOptions _options;

@@ -1,6 +1,6 @@
 ﻿namespace NotificationService.Infrastructure.Configuration
 {
-    public class SendGridOptions
+    internal class SendGridOptions
     {
         public const string SectionName = "SendGrid";
 

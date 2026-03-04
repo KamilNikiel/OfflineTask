@@ -1,6 +1,6 @@
 ﻿namespace NotificationService.Infrastructure.Configuration
 {
-    public class AwsSnsOptions
+    internal class AwsSnsOptions
     {
         public const string SectionName = "AwsSns";
 

@@ -5,7 +5,7 @@ using NotificationService.Domain.ValueObjects;
 
 namespace NotificationService.Api.Mappers
 {
-    public static class NotificationMapper
+    internal static class NotificationMapper
     {
         public static Notification MapToNotification(SendNotificationRequest request)
         {

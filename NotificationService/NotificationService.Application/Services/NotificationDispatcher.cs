@@ -9,7 +9,7 @@ using NotificationService.Domain.ValueObjects;
 
 namespace NotificationService.Application.Services
 {
-    public class NotificationDispatcher : INotificationDispatcher
+    internal class NotificationDispatcher : INotificationDispatcher
     {
         private readonly IDelayedNotificationQueue _retryQueue;
         private readonly ILogger<NotificationDispatcher> _logger;

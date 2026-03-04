@@ -12,7 +12,7 @@ using Twilio.Exceptions;
 
 namespace NotificationService.Infrastructure.Providers.Email
 {
-    public class TwilioSendGridEmailProvider : INotificationProvider
+    internal class TwilioSendGridEmailProvider : INotificationProvider
     {
         private readonly ISendGridClient _sendGridClient;
         private readonly SendGridOptions _options;

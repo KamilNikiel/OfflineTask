@@ -11,7 +11,7 @@ using Twilio.Exceptions;
 
 namespace NotificationService.Infrastructure.Providers.Push
 {
-    public class FirebasePushProvider : INotificationProvider
+    internal class FirebasePushProvider : INotificationProvider
     {
         private const string AuthorizationHeader = "Authorization";
 
